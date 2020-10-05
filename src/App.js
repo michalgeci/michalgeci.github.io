@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Container } from 'shards-react'
+
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "shards-ui/dist/css/shards.min.css"
+
+import './i18n'
+import Navigation from './Navigation';
+import { HashRouter, Route } from 'react-router-dom';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter basename="/">
+      <Container>
+        <br/>
+        <Navigation/>
+        <Route exact path="/" component={() => <div>Ahoj</div>}/>
+        <Route exact path="/projects" component={() => <div>Projects</div>}/>
+      </Container>
+    </HashRouter>
   );
 }
 
