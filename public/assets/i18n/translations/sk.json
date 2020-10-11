@@ -1,4 +1,12 @@
 {
   "about_me" : "O mne",
-  "my_projects": "Moje projekty"
+  "my_projects": "Moje projekty",
+  "visit_page": "NAVŠTÍVIŤ",
+  "source_code": "Zdrojový kód",
+  "secter_hitler_description": "Adaptácia populárnej spoločenskej hry pre hranie na jednom zariadení.",
+  "covid_description": "Aktuálne štatistiky o korone na Slovensku.",
+  "proofs_description": "Plno prapodivých dôkazov nadprirodzena.",
+  "slovnik_description": "Offline slovník cudzích slov slovenského jazyka.",
+  "rnm_description": "Demo aplikácia so zoznamom postaváv, lokácií a epizód zo serálu.",
+  "notes_description": "Demo aplikácia s vlastým (DEMO) backendom na poznámky."
 }

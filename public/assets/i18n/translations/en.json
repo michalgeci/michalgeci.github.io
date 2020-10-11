@@ -1,4 +1,14 @@
 {
   "about_me" : "About me",
-  "my_projects": "My projects"
+
+  
+  "my_projects": "My projects",
+  "visit_page": "VISIT PAGE",
+  "source_code": "Source code",
+  "secter_hitler_description": "Adaptation of popular boardgame for one mobile device.",
+  "covid_description": "Statistics of COVID-19 on Slovakia.",
+  "proofs_description": "Blasphemous app full of proofs of supernatural.",
+  "slovnik_description": "Offline dictionary of foreign words of slovak language.",
+  "rnm_description": "Demo appp listing characters, locations and episodes of popular series.",
+  "notes_description": "Demo appp with custom (DEMO) back-end for taking notes."
 }
