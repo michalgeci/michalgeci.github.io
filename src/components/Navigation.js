@@ -10,6 +10,7 @@ function Navigation() {
 
   const { t, i18n } = useTranslation()
   const changeLanguage = (langCode) => {
+    localStorage.setItem("savedLang_michalgeci", langCode)
     i18n.changeLanguage(langCode)
   }
   const location = useLocation()

@@ -2,11 +2,13 @@ import i18n from 'i18next'
 import Backend from 'i18next-xhr-backend'
 import { initReactI18next } from 'react-i18next'
 
+let lang = localStorage.getItem("savedLang_michalgeci") == null ? 'en' : localStorage.getItem("savedLang_michalgeci")
+
 i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
-    lng: 'sk',
+    lng: lang,
     backend: {
       /* translation file path */
       loadPath: '/assets/i18n/{{ns}}/{{lng}}.json'

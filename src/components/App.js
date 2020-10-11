@@ -9,6 +9,7 @@ import './i18n'
 import Navigation from './Navigation';
 import { HashRouter, Route } from 'react-router-dom';
 import Projects from './Projects';
+import Bio from './Bio';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <Container>
         <br/>
         <Navigation/>
-        <Route exact path="/" component={() => <div>Ahoj</div>}/>
+        <Route exact path="/" component={() => <Bio/>}/>
         <Route exact path="/projects" component={() => <Projects/>}/>
       </Container>
     </HashRouter>
