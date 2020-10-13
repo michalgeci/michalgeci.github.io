@@ -1,7 +1,7 @@
 {
   "about_me" : "About me",
 
-  
+
   "my_projects": "My projects",
   "visit_page": "VISIT PAGE",
   "source_code": "Source code",
@@ -10,5 +10,7 @@
   "proofs_description": "Blasphemous app full of proofs of supernatural.",
   "slovnik_description": "Offline dictionary of foreign words of slovak language.",
   "rnm_description": "Demo appp listing characters, locations and episodes of popular series.",
-  "notes_description": "Demo appp with custom (DEMO) back-end for taking notes."
+  "notes_description": "Demo appp with custom (DEMO) back-end for taking notes.",
+
+  "404": "This is't the page you're looking for."
 }

@@ -1,0 +1,43 @@
+.marginAuto {
+    margin: auto;
+}
+
+.dt {
+    display: table;
+}
+
+.imageContainer {
+    display: grid;
+}
+
+.profileImageBox {
+    width: 200px;
+    height: 200px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-radius: 100px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.profileImageBox:hover {
+    border: dotted;
+}
+
+.profileImageBox.flip {
+    border: none;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+.profileImage {
+    width: 200px; 
+    height: 200px; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

@@ -11,22 +11,30 @@ import iOSLogo from '../images/ios.png'
 import nodejsLogo from '../images/nodejs.png'
 
 import secretHitler from '../images/apps/secretHitler.png'
+import secretHitler2x from '../images/apps/secretHitler_2x.png'
 import proofs from '../images/apps/proofs.png'
+import proofs2x from '../images/apps/proofs_2x.png'
 import covid from '../images/apps/covid.png'
+import covid2x from '../images/apps/covid_2x.png'
 import slovnik from '../images/apps/slovnik.png'
+import slovnik2x from '../images/apps/slovnik_2x.png'
 import rickNMorty from '../images/apps/rick_morty.png'
+import rickNMorty2x from '../images/apps/rick_morty_2x.png'
 import notes from '../images/apps/notes.png'
+import notes2x from '../images/apps/notes_2x.png'
 
 import thatsAll from '../images/thats_all.gif'
 
 function Projects() {
 
-  const { t, i18n } = useTranslation()
+  // eslint-disable-next-line no-unused-vars
+  const { t, _i18n } = useTranslation()
 
   const data = [
     {
       "title": "Secret Hitler",
       "image": secretHitler,
+      "image_2x": secretHitler2x,
       "description": t("secter_hitler_description"),
       "gitUrl": "https://github.com/michalgeci/SecretHitler",
       "url": "https://michalgeci.github.io/SecretHitler/",
@@ -35,6 +43,7 @@ function Projects() {
     }, {
       "title": "COVID-19 SK Štatistika",
       "image": covid,
+      "image_2x": covid2x,
       "description": t("covid_description"),
       "gitUrl": "https://github.com/michalgeci/COVID-19_SK_statistics_android",
       "url": "https://michalgeci.github.io/COVID-19_SK_statistics_android/",
@@ -43,6 +52,7 @@ function Projects() {
     }, {
       "title": "Hundreds of Proofs",
       "image": proofs,
+      "image_2x": proofs2x,
       "description": t("proofs_description"),
       "gitUrl": "https://github.com/michalgeci/HundredProofs",
       "url": "https://michalgeci.github.io/HundredProofs/",
@@ -51,6 +61,7 @@ function Projects() {
     }, {
       "title": "Slovník cudzích slov",
       "image": slovnik,
+      "image_2x": slovnik2x,
       "description": t("slovnik_description"),
       "gitUrl": "",
       "url": "https://play.google.com/store/apps/details?id=sk.slovnik.slovnikcudzchslov",
@@ -59,6 +70,7 @@ function Projects() {
     }, {
       "title": "Rick 'n Morty Catalog",
       "image": rickNMorty,
+      "image_2x": rickNMorty2x,
       "description": t("rnm_description"),
       "gitUrl": "https://github.com/michalgeci/RnM_catalog",
       "url": "",
@@ -68,8 +80,8 @@ function Projects() {
   ]
 
   const makeCard = (data, key) => {
-    return (<Card key={key} style={{ width: "300px", margin: "1em" }}>
-      <CardImg top style={{ width: "300px", height: "200px" }} src={data.image} />
+    return (<Card key={key} style={{ width: "300px", margin: "1em", minWidth: "300px" }}>
+      <CardImg top style={{ width: "300px", height: "200px" }} src={data.image} srcset={ data.image + ' 1x,' + data.image_2x + ' 2x'} />
       <CardBody>
         <CardTitle>{data.title}</CardTitle>
         <p style={{ fontStyle: "italic", fontSize: "0.8em", marginBottom: "0px", height: "3em" }}>{data.description}</p>
@@ -103,8 +115,8 @@ function Projects() {
           })
         }
 
-        <Card style={{ width: "300px", margin: "1em" }}>
-          <CardImg top style={{ width: "300px", height: "200px" }} src={notes} />
+        <Card style={{ width: "300px", margin: "1em", minWidth: "300px" }}>
+          <CardImg top style={{ width: "300px", height: "200px" }} src={notes} srcset={notes2x} />
           <CardBody>
             <CardTitle>"Swifty/Tiny Notes"</CardTitle>
             <p style={{ fontStyle: "italic", fontSize: "0.8em", marginBottom: "0px", height: "3em"}}>
@@ -130,7 +142,7 @@ function Projects() {
 
       </div>
 
-      <img style={{margin: "42px auto 42px auto", borderRadius: "16px"}} src={thatsAll} alt="Thats all"/>
+      <img className="dropShadow" style={{margin: "42px auto 42px auto", borderRadius: "16px", maxWidth: "80%"}} src={thatsAll} alt="Thats all"/>
     </div>
   )
 }
