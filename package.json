@@ -1,6 +1,6 @@
 {
   "name": "my-page",
-  "_comment": "\"homepage\": \"https://michalgeci.github.io/\"",
+  "homepage": "https://michalgeci.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
