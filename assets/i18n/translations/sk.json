@@ -1,0 +1,41 @@
+{
+  "about_me" : "O mne",
+  "age": "vek",
+  "gender": "pohlavie",
+
+  "tap": "ŤUK",
+
+  "work_experience": "Pracovné skúsenosti",
+
+  "education": "Vzdelanie",
+  "tuke": "Technická Univerzita v Košiciach",
+  "fei": "Fakulta elektrotechniky a informatiky",
+  "kkui": "Katedra kybernetiky a umelej inteligencie",
+  "cybernetics": "Kybernetika",
+  "is": "Inteligentné systémy",
+
+  "gta": "Gymnázium sv. Tomáša Akvinského",
+  "gta_detail": "Matematika, Fyika, Anglický jazyk (B2), Slovenký jazyk a literatúra",
+
+  "skills": "Zručnosti",
+  "major_languages": "Hlavné jazyky",
+  "minor_languages": "Vedľajšie jazyky",
+  "fancy": "Ďalšie veselé slová ktoré sa dotiahli na zoznam mojich zručností:",
+
+  "last_words": "Som človek ktorý má rád popkultúru, hudbu atď. Takisto hrám na gitare a\u00A0preferujem GIMP (namiesto Photoshopu) ... kontoroverzné ... ja viem.",
+
+
+  "my_projects": "Moje projekty",
+  "visit_page": "NAVŠTÍVIŤ",
+  "source_code": "Zdrojový kód",
+  "secter_hitler_description": "Adaptácia populárnej spoločenskej hry pre hranie na jednom zariadení.",
+  "covid_description": "Aktuálne štatistiky o korone na Slovensku.",
+  "proofs_description": "Plno prapodivých dôkazov nadprirodzena.",
+  "slovnik_description": "Offline slovník cudzích slov slovenského jazyka.",
+  "rnm_description": "Demo aplikácia so zoznamom postaváv, lokácií a epizód zo serálu.",
+  "notes_description": "Demo aplikácia s vlastým (DEMO) backendom na poznámky.",
+
+  "support": "Ak sa vám páčia moje projekty môžete mi kúpiť pivo.",
+
+  "404": "Toto nie je stránka ktorú hľadáte."
+}
