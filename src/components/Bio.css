@@ -6,6 +6,35 @@
     display: table;
 }
 
+h3, h5, span, li, p {
+    width: fit-content;
+}
+
+.whiteOutline{
+    text-shadow: -1px 1px 2px #ffffff,
+				  1px 1px 2px #ffffff,
+				  1px -1px 0 #ffffff,
+				  -1px -1px 0 #ffffff;
+}
+
+.coffeButtonStyle {
+    height: 60px !important;
+    width: 217px !important;
+    display: flex;
+    background-color: #007bff;
+    border-radius: 16px;
+}
+
+.coffeButtonStyle:hover {
+    text-decoration: none;
+}
+
+.coffeButtonText {
+    margin: auto;
+    color: #ffffff;
+    font-family: 'GoodTime';
+}
+
 .imageContainer {
     display: grid;
 }

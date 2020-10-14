@@ -142,6 +142,19 @@ function Projects() {
 
       </div>
 
+      <div style={{display: 'flex', flexFlow: 'row', flexWrap: 'wrap', justifyContent: 'center' ,width: 'fit-content', margin: "42px auto auto auto"}}>
+        <span style={{marginTop: 'auto', marginBottom: 'auto', marginRight: '16px', fontWeight: 'bold', paddingTop: '16px', paddingBottom: '16px', textAlign: 'center'}}>{t('support')}</span>
+        
+        <div style={{display: 'inline-flex'}}>
+        <a className="coffeButtonStyle dropShadow" href="https://www.buymeacoffee.com/michalgeci" rel="noopener noreferrer" target="_blank">
+          <span className="coffeButtonText" role="img" aria-label="beer">🍺&nbsp;&nbsp;&nbsp;Buy me a beer</span>
+        </a>
+
+        <span style={{marginTop: 'auto', marginBottom: 'auto', marginLeft: '16px', fontSize: '1.6rem'}} role="img" aria-label="wink">😉</span>
+
+        </div>
+      </div>
+
       <img className="dropShadow" style={{margin: "42px auto 42px auto", borderRadius: "16px", maxWidth: "80%"}} src={thatsAll} alt="Thats all"/>
     </div>
   )

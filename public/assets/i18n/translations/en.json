@@ -1,5 +1,28 @@
 {
   "about_me" : "About me",
+  "age": "age",
+  "gender": "gender",
+
+  "tap": "TAP",
+
+  "work_experience": "Work Experience",
+
+  "education": "Education",
+  "tuke": "Technical University of Košice",
+  "fei": "Faculty of Electrical Engineering and Informatics",
+  "kkui": "Department of Cybernetics and Artificial Intelligence",
+  "cybernetics": "Cybernetics",
+  "is": "Intelligent Systems",
+
+  "gta": "Grammar School of St. Thomas Aquinas",
+  "gta_detail": "Math, Physics, English language (B2), Slovak language and literature",
+
+  "skills": "Skills",
+  "major_languages": "Primary languages",
+  "minor_languages": "Secondary languages",
+  "fancy": "Other fancy terms that somehow made it into my skillset:",
+
+  "last_words": "I am also normal human who enjoys pop culture, music etc. I also play the guitar and I prefer GIMP over Photoshop ... contoversial ... I know.",
 
 
   "my_projects": "My projects",
@@ -11,6 +34,8 @@
   "slovnik_description": "Offline dictionary of foreign words of slovak language.",
   "rnm_description": "Demo appp listing characters, locations and episodes of popular series.",
   "notes_description": "Demo appp with custom (DEMO) back-end for taking notes.",
+
+  "support": "If you like my projects you could ",
 
   "404": "This is't the page you're looking for."
 }
