@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 
 import './Bio.css'
 import moment from 'moment';
-import { Col, Container, Row, Button } from 'shards-react';
+import { Col, Container, Row } from 'shards-react';
 import useBootstrapSize from './bootstrapSize';
 
 import bowtie from '../images/profile/bowtie.jpg'
@@ -27,6 +27,7 @@ function Bio() {
   var myAge = moment().diff(moment("1995-05-13"), 'years')
   var size = useBootstrapSize()
 
+  // eslint-disable-next-line no-unused-vars
   const { t, i18n } = useTranslation()
 
   const [flip, setFlip] = useState("")
