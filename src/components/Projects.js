@@ -9,6 +9,7 @@ import androidLogo from '../images/android.png'
 import pwaLogo from '../images/pwa.png'
 import iOSLogo from '../images/ios.png'
 import nodejsLogo from '../images/nodejs.png'
+import jsLogo from '../images/js.png'
 
 import secretHitler from '../images/apps/secretHitler.png'
 import secretHitler2x from '../images/apps/secretHitler_2x.png'
@@ -22,6 +23,10 @@ import rickNMorty from '../images/apps/rick_morty.png'
 import rickNMorty2x from '../images/apps/rick_morty_2x.png'
 import notes from '../images/apps/notes.png'
 import notes2x from '../images/apps/notes_2x.png'
+import duels from '../images/apps/duels.png'
+import duels2x from '../images/apps/duels_2x.png'
+import fallacies from '../images/apps/fallacies.png'
+import fallacies2x from '../images/apps/fallacies_2x.png'
 
 import thatsAll from '../images/thats_all.gif'
 
@@ -41,14 +46,23 @@ function Projects() {
       "technology": androidLogo,
       "altTech": "android"
     }, {
-      "title": "COVID-19 SK Štatistika",
-      "image": covid,
-      "image_2x": covid2x,
-      "description": t("covid_description"),
-      "gitUrl": "https://github.com/michalgeci/COVID-19_SK_statistics_android",
-      "url": "https://michalgeci.github.io/COVID-19_SK_statistics_android/",
+      "title": "Slovník cudzích slov",
+      "image": slovnik,
+      "image_2x": slovnik2x,
+      "description": t("slovnik_description"),
+      "gitUrl": "",
+      "url": "https://play.google.com/store/apps/details?id=sk.slovnik.slovnikcudzchslov",
       "technology": androidLogo,
       "altTech": "android"
+    }, {
+      "title": "Duels",
+      "image": duels,
+      "image_2x": duels2x,
+      "description": t("duels"),
+      "gitUrl": "https://github.com/michalgeci/Duels",
+      "url": "https://michalgeci.github.io/Duels/",
+      "technology": jsLogo,
+      "altTech": "JS"
     }, {
       "title": "Hundreds of Proofs",
       "image": proofs,
@@ -59,14 +73,14 @@ function Projects() {
       "technology": pwaLogo,
       "altTech": "PWA"
     }, {
-      "title": "Slovník cudzích slov",
-      "image": slovnik,
-      "image_2x": slovnik2x,
-      "description": t("slovnik_description"),
-      "gitUrl": "",
-      "url": "https://play.google.com/store/apps/details?id=sk.slovnik.slovnikcudzchslov",
-      "technology": androidLogo,
-      "altTech": "android"
+      "title": "Logical Fallacies",
+      "image": fallacies,
+      "image_2x": fallacies2x,
+      "description": t("fallacies"),
+      "gitUrl": "https://github.com/michalgeci/LogicalFallacies",
+      "url": "https://michalgeci.github.io/LogicalFallacies/",
+      "technology": pwaLogo,
+      "altTech": "PWA"
     }, {
       "title": "Rick 'n Morty Catalog",
       "image": rickNMorty,
@@ -76,6 +90,15 @@ function Projects() {
       "url": "",
       "technology": iOSLogo,
       "altTech": "iOS"
+    }, {
+      "title": "COVID-19 SK Štatistika",
+      "image": covid,
+      "image_2x": covid2x,
+      "description": t("covid_description"),
+      "gitUrl": "https://github.com/michalgeci/COVID-19_SK_statistics_android",
+      "url": "https://michalgeci.github.io/COVID-19_SK_statistics_android/",
+      "technology": androidLogo,
+      "altTech": "android"
     }
   ]
 

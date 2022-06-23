@@ -95,7 +95,7 @@ function Bio() {
         id="planet" 
         style={ { transform, opacity: 0, position: 'absolute', display: 'flex', width: "120px", height: "100px", zIndex: 99, justifyContent: 'center', alignItems: 'center'}}
         onClick={()=>{
-          window.open("https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=31463;old=0;orb=1;cov=0;log=0;cad=0#orb", "_blank")
+          window.open("https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=michalgeci&view=PD", "_blank")
         }}
       >
         <img src={planet} style={{width: "120px", height: "100px"}} alt="easterEgg"/>

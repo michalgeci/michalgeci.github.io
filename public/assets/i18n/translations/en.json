@@ -34,6 +34,8 @@
   "slovnik_description": "Offline dictionary of foreign words of slovak language.",
   "rnm_description": "Demo appp listing characters, locations and episodes of popular series.",
   "notes_description": "Demo appp with custom (DEMO) back-end for taking notes.",
+  "duels": "Simple game for two, compares reaction time of players. Uses PeerJS.",
+  "fallacies": "Something to thing about from logicallyfallacious.com",
 
   "support": "If you like my projects you could ",
 
