@@ -20,9 +20,9 @@
   "skills": "Zručnosti",
   "major_languages": "Hlavné jazyky",
   "minor_languages": "Vedľajšie jazyky",
-  "fancy": "Ďalšie veselé slová, ktoré sa dotiahli na zoznam mojich zručností:",
+  "fancy": "Ďalšie veselé slová ktoré sa dotiahli na zoznam mojich zručností:",
 
-  "last_words": "Som človek, ktorý má rád popkultúru, hudbu atď. Takisto hrám na gitare a\u00A0preferujem GIMP (namiesto Photoshopu) ... kontoroverzné ... ja viem.",
+  "last_words": "Som človek ktorý má rád popkultúru, hudbu atď. Takisto hrám na gitare a\u00A0preferujem GIMP (namiesto Photoshopu) ... kontoroverzné ... ja viem.",
 
 
   "my_projects": "Moje projekty",
@@ -34,6 +34,8 @@
   "slovnik_description": "Offline slovník cudzích slov slovenského jazyka.",
   "rnm_description": "Demo aplikácia so zoznamom postaváv, lokácií a epizód zo serálu.",
   "notes_description": "Demo aplikácia s vlastým (DEMO) backendom na poznámky.",
+  "duels": "Jednoduchá hra pre dvoch, porovnáva reakčný čas hráčov. Používa PeerJS.",
+  "fallacies": "Niečo na zamyslenie z logicallyfallacious.com",
 
   "support": "Ak sa vám páčia moje projekty môžete mi kúpiť pivo.",
 

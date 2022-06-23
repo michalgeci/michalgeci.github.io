@@ -1,24 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.6d46b6ac.chunk.css",
-    "main.js": "/static/js/main.e3fedc8e.chunk.js",
-    "main.js.map": "/static/js/main.e3fedc8e.chunk.js.map",
+    "main.js": "/static/js/main.05019b18.chunk.js",
+    "main.js.map": "/static/js/main.05019b18.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.285894c7.js",
     "runtime-main.js.map": "/static/js/runtime-main.285894c7.js.map",
     "static/css/2.78afd188.chunk.css": "/static/css/2.78afd188.chunk.css",
-    "static/js/2.f4154878.chunk.js": "/static/js/2.f4154878.chunk.js",
-    "static/js/2.f4154878.chunk.js.map": "/static/js/2.f4154878.chunk.js.map",
+    "static/js/2.bfb9ba46.chunk.js": "/static/js/2.bfb9ba46.chunk.js",
+    "static/js/2.bfb9ba46.chunk.js.map": "/static/js/2.bfb9ba46.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6e566b738276f8d71394de4c55618559.js": "/precache-manifest.6e566b738276f8d71394de4c55618559.js",
+    "precache-manifest.6af731dc9e0da0d2fa411cca6138b0e5.js": "/precache-manifest.6af731dc9e0da0d2fa411cca6138b0e5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.78afd188.chunk.css.map": "/static/css/2.78afd188.chunk.css.map",
     "static/css/main.6d46b6ac.chunk.css.map": "/static/css/main.6d46b6ac.chunk.css.map",
-    "static/js/2.f4154878.chunk.js.LICENSE.txt": "/static/js/2.f4154878.chunk.js.LICENSE.txt",
+    "static/js/2.bfb9ba46.chunk.js.LICENSE.txt": "/static/js/2.bfb9ba46.chunk.js.LICENSE.txt",
     "static/media/404.png": "/static/media/404.c4d7543f.png",
     "static/media/bowtie.jpg": "/static/media/bowtie.7f4bef28.jpg",
     "static/media/covid.png": "/static/media/covid.e0d787f0.png",
     "static/media/covid_2x.png": "/static/media/covid_2x.2e0e226e.png",
+    "static/media/duels.png": "/static/media/duels.68ef031e.png",
+    "static/media/duels_2x.png": "/static/media/duels_2x.1a22c3a0.png",
     "static/media/education.svg": "/static/media/education.3752d430.svg",
+    "static/media/fallacies.png": "/static/media/fallacies.8a71397b.png",
+    "static/media/fallacies_2x.png": "/static/media/fallacies_2x.c2d19f99.png",
     "static/media/figgis.png": "/static/media/figgis.b83f4cfa.png",
     "static/media/App.css": "/static/media/goodTime.8cc060bb.ttf",
     "static/media/krieg.png": "/static/media/krieg.12d2cd05.png",
@@ -39,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.285894c7.js",
     "static/css/2.78afd188.chunk.css",
-    "static/js/2.f4154878.chunk.js",
+    "static/js/2.bfb9ba46.chunk.js",
     "static/css/main.6d46b6ac.chunk.css",
-    "static/js/main.e3fedc8e.chunk.js"
+    "static/js/main.05019b18.chunk.js"
   ]
 }
